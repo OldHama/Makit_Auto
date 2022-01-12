@@ -33,32 +33,6 @@
      <attribute name="title">
       <string>기본 업무</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton_16">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>150</y>
-        <width>113</width>
-        <height>32</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>토요일 폴더</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_17">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>190</y>
-        <width>113</width>
-        <height>32</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>일요일 폴더</string>
-      </property>
-     </widget>
      <widget class="QGroupBox" name="groupBox_2">
       <property name="geometry">
        <rect>
@@ -77,118 +51,27 @@
       <widget class="QPushButton" name="pushButton_14">
        <property name="geometry">
         <rect>
-         <x>10</x>
-         <y>50</y>
-         <width>100</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>카톡보고</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>100</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>오늘 날짜</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="geometry">
-        <rect>
-         <x>120</x>
-         <y>20</y>
-         <width>113</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>자동화</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_3">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>270</y>
-        <width>241</width>
-        <height>141</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>수업정보 복붙</string>
-      </property>
-      <widget class="QPushButton" name="pushButton_7">
-       <property name="geometry">
-        <rect>
          <x>0</x>
-         <y>30</y>
-         <width>100</width>
+         <y>20</y>
+         <width>241</width>
          <height>32</height>
         </rect>
        </property>
        <property name="text">
-        <string>기본 양식</string>
+        <string>카톡 보고</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>60</y>
-         <width>100</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>토 10시 수업</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>60</y>
-         <width>100</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>토 1시 수업</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="pushButton_16">
        <property name="geometry">
         <rect>
          <x>0</x>
          <y>90</y>
-         <width>100</width>
+         <width>241</width>
          <height>32</height>
         </rect>
        </property>
        <property name="text">
-        <string>일 1시 수업</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_11">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>90</y>
-         <width>100</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>일 3시10분</string>
+        <string>카톡 피드백 보내기</string>
        </property>
       </widget>
      </widget>
@@ -260,14 +143,14 @@
      <widget class="QPushButton" name="pushButton_15">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>0</x>
         <y>520</y>
-        <width>341</width>
+        <width>411</width>
         <height>32</height>
        </rect>
       </property>
       <property name="text">
-       <string>보고 파일 이름 변경</string>
+       <string>보고 파일 날짜 변경</string>
       </property>
      </widget>
      <widget class="QGroupBox" name="groupBox_4">
@@ -309,6 +192,126 @@
        </property>
       </widget>
      </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>241</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>NAS 업로드</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>241</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>수업자료 업로드</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>241</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>보고파일3개 NAS 업로드</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>410</y>
+        <width>391</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>할거 다 했니..?</string>
+      </property>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>87</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>카톡 전송</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>87</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ACA</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>20</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>NAS 업로드</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>진도표 작성</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>데일리 보고 작성</string>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="README">
      <attribute name="title">
@@ -318,7 +321,7 @@
       <property name="geometry">
        <rect>
         <x>170</x>
-        <y>380</y>
+        <y>510</y>
         <width>113</width>
         <height>32</height>
        </rect>
@@ -327,24 +330,11 @@
        <string>저장</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>0</y>
-        <width>391</width>
-        <height>371</height>
-       </rect>
-      </property>
-      <property name="plainText">
-       <string/>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_19">
       <property name="geometry">
        <rect>
         <x>280</x>
-        <y>380</y>
+        <y>510</y>
         <width>113</width>
         <height>32</height>
        </rect>
@@ -352,6 +342,110 @@
       <property name="text">
        <string>Open Readme</string>
       </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>421</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>지난 숙제</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>391</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>421</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>결석학생</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>391</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>421</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>이번 숙제</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>391</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>421</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>진도</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>391</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="카카오톡피드백">
@@ -376,19 +470,6 @@
         <width>391</width>
         <height>181</height>
        </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_20">
-      <property name="geometry">
-       <rect>
-        <x>160</x>
-        <y>510</y>
-        <width>113</width>
-        <height>32</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>저장</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit">
@@ -437,11 +518,56 @@
        <string>카톡폴더</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_22">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>510</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>엑셀 저장</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_14</tabstop>
+  <tabstop>pushButton_16</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_20</tabstop>
+  <tabstop>pushButton_12</tabstop>
+  <tabstop>pushButton_13</tabstop>
+  <tabstop>checkBox_2</tabstop>
+  <tabstop>checkBox_3</tabstop>
+  <tabstop>checkBox_4</tabstop>
+  <tabstop>checkBox_5</tabstop>
+  <tabstop>checkBox_6</tabstop>
+  <tabstop>pushButton_15</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>plainTextEdit_5</tabstop>
+  <tabstop>plainTextEdit_6</tabstop>
+  <tabstop>plainTextEdit_7</tabstop>
+  <tabstop>plainTextEdit</tabstop>
+  <tabstop>pushButton_18</tabstop>
+  <tabstop>pushButton_19</tabstop>
+  <tabstop>plainTextEdit_4</tabstop>
+  <tabstop>checkBox</tabstop>
+  <tabstop>plainTextEdit_2</tabstop>
+  <tabstop>plainTextEdit_3</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton_22</tabstop>
+  <tabstop>pushButton_21</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
