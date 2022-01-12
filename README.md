@@ -9,3 +9,8 @@
 OldHama/OldHama is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+
+open PP_Main.py
+
+do pyinstaller -w -F -i PP_icon.ico PP_Main.py
